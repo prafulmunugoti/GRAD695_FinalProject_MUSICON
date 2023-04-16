@@ -46,33 +46,56 @@ Software Requirements:
   Libraries used: pandas, pymysql, copy, time, pygame, colorama, re, datetime, random.
 
 Build/Installation Instructions:
+
   1. MySQL Installation:
+  
     https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/macos-installation-pkg.html
+    
   2. Anaconda Installation:
+  
     https://docs.anaconda.com/anaconda/install/mac-os/
+    
   3. Type cmd/terminal to pull a terminal and enter the command: “pip install pymysql” or “pip3 install pymysql".
+  
   4. Type cmd/terminal to pull a terminal and enter the command: “pip install pygame” or “pip3 install pygame".
+  
   5. Type cmd/terminal to pull a terminal and enter the command: “pip install pandas” or “pip3 install pandas".
+   
   6. Type cmd/terminal to pull a terminal and enter the command: “pip install colorama” or “pip3 install colorama".
+   
   7. All other libraries come standard with Python installation, else use the similar command pip3 install <library name>.
+  
 
 Following the above steps 1-7 will provide proper installation of libraries.
 
   Starting MySQL server for the script to fetch data from DB:
+  
     1. https://dev.mysql.com/doc/refman/8.0/en/macos-installation-launchd.html
+  
     2. cd /usr/local/mysql/bin/
+  
     3. ./mysql -u root -p. à prompts a password of the root user
+  
     4. Enter the password of the root used in the installation process. MySQL is ready to use.
+  
     5. Run SQL commands present in “MUSICON.sql” file to store the data in MySQL DB.
 
 Run the musicon code:
+  
     1. cd <directory where source code is located>
+  
     2. ./musicon.py, and follow the menu items to use the MUSICON software artifact.
 
 Product Inventory (List of Files):
+  
     1. MUSICON.py (main Python source code)
+  
     2. MUSICON.sql (main script to create/insert initial tables data)
+  
     3. songs/*.mp3 (audio files for the software artifact to work)
+  
     4. libraryTest.py (test cases of Library class)
+  
     5. playlisttest.py (test cases of Playlist class)
+  
     6. README (file and explanation of each option in the MUSICON menu with step-by-step instructions for each file and option)
