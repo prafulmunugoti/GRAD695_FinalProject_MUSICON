@@ -1,5 +1,5 @@
 # MusiCon
-This project aims to build up a full test set for a product, including unit tests and the integration test. The product in this project is a Music Player Simulator which can operate based on the user’s input. The existing functionalities of the music player simulator includes: 
+This folder is a full test set for a product, including unit tests and the integration test. The product in this project is a Music Player Emulator which can operate based on the user’s input. The existing functionalities of the music player Emulator includes: 
 
 1. Add a new song to library 
      To add a new song into the existing repository and helps in building the songs database with attributes title, artist, album, year, lyrics. 
