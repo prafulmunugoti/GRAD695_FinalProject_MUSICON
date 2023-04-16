@@ -18,29 +18,17 @@ MUSICON, a music player emulator is a software alternative to explore an option 
 ------------------------------ MUSICON ------------------------------
 
 0.  Menu
-
 1.  Add a new song to library
-
 2.  Delete a song from library
-
 3.  Show songs in library
-
 4.  Search by song name or artist
-
 5.  Play a song present in Library
-
 6.  Create a playlist
-
 7.  Show all playlists
-
 8.  Add songs to the playlist
-
 9.  Play songs in playlist
-
 10. Show recently played songs
-
 11. Exit
-
 
 ----------------------------------------------------------------------
 
